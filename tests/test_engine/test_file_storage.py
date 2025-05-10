@@ -112,4 +112,3 @@ class TestFileStorage(unittest.TestCase):
         from models.engine.file_storage import FileStorage
         print(type(self.storage))
         self.assertEqual(type(self.storage), FileStorage)
-
